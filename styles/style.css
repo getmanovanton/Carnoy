@@ -131,7 +131,7 @@ header {
 .banner{
     background: url("../images/main/all_heating_02.png") 50% 0 no-repeat;
     background-size: 1920px 923px;
-    height: 829px;
+    height: auto;
     overflow: hidden;
 }
 .banner h1{
@@ -478,8 +478,7 @@ header {
     }
 }
 @media (max-width: 840px){
-    .banner{
-    max-height: 800px;}
+
     .aboutus:before {
         display: none;
     }
@@ -566,8 +565,7 @@ header {
     }
 }
 @media (max-width: 477px){
-    .banner{
-        max-height: 784px;}
+
 
     .banner h1{
         font-size: 16px;
@@ -617,8 +615,6 @@ header {
 
 }
 @media (max-width: 341px) {
-    .banner{
-        max-height: 774px;}
 
     .banner h1{
         font-size: 12px;
