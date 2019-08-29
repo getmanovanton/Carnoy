@@ -167,9 +167,7 @@ header {
     background-color: #ffffff;
     background:linear-gradient(to right bottom,transparent 50%, #ffffff 0)
 }
-.conntent{
-    height: 100px;
-}
+
 .conntent h1{
     text-align: center;
     font-size: 24px;
@@ -367,10 +365,35 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 
 }
-.rhombus{
+
+.rhombus-conntent img{
+    border: none;
+    margin: 0 36px;
+}
+
+.rhombus-conntent{
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 301px;
     text-align: center;
+    margin: 0 85px 70px 0;
+    position: relative;
+
+}
+.rhombus-conntent h2{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.rhombus-conntent p{
+    font-size: 14px;
+}
+.rhombus-conntent:before{
+    position: absolute;
+    content: "";
     border: 2px solid #ff6102;
     border-radius: 5px;
     height: 275px;
@@ -378,22 +401,52 @@ header {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    margin-right: 104px;
+    top: -32px
 }
-.rhombus img{
-    border: none;
+.connection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 127px;
+
 }
 
-.rhombus-conntent{
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    margin-right: 24px;
-    margin-top: 33px;
-}
-.rhombus-conntent h2{
+.connection h2{
     font-size: 18px;
 }
-.rhombus-conntent p{
+.connection p{
+    margin: 4px 0;
+}
+.google{
+    max-height: 317px;
+    max-width: 469px;
+}
+.links{
+    text-align: right;
+}
+.numbers a{
+    padding-left: 5px;
+    max-height: 26px;
+}
+.numbers h2{
+    margin: 0 0 30px 0;
+}
+.web{
+    max-height: 30px;
+    margin-top: 67px;
+    display: flex;
+    justify-content: end;
+}
+#FB{
+    padding: 0 16px;
+}
+.reserved{
+    background-color: #017725;
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff;
     font-size: 14px;
+    margin-top: 100px;
+}
+.reserved p{
+    margin: 0;
 }
