@@ -426,18 +426,21 @@ header {
 .numbers a{
     padding-left: 5px;
     max-height: 26px;
+    font-size: 21px;
 }
 .numbers h2{
     margin: 0 0 30px 0;
 }
 .web{
+    position: relative;
     max-height: 30px;
-    margin-top: 67px;
+    padding-top: 67px;
     display: flex;
-    justify-content: end;
 }
 #FB{
+    position: relative;
     padding: 0 16px;
+    top: -3px;
 }
 .reserved{
     background-color: #017725;
@@ -449,4 +452,175 @@ header {
 }
 .reserved p{
     margin: 0;
+}
+@media (max-width: 1175px){
+    .wrapper{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .orange-line{
+        display: none;
+    }
+    .right-padding {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .submit-bnt{
+        width: 796px;
+    }
+    .rhombus-conntent{
+        margin: 0 34px 161px 0;
+    }
+    .rhombus-conntent:before{
+        height: 240px;
+        width: 240px;
+        top: -5px;
+    }
+}
+@media (max-width: 840px){
+    .banner{
+    max-height: 800px;}
+    .aboutus:before {
+        display: none;
+    }
+    .banner h1{
+        font-size: 23px;
+    }
+
+    .aboutus:after{
+        display: none;
+    }
+    .icon{
+        padding-left: 5px;
+    }
+    .web{
+        display: block;
+    }
+    .submit-bnt {
+        width: 216px;
+    }
+}
+@media (max-width: 680px){
+        .communication{
+            display: none;
+        }
+        .request-number{
+            display: none;
+        }
+        .connection{
+            display: block;
+            text-align: center;
+        }
+        .google{
+            max-width: none;
+            max-height: none;
+            padding-top: 50px;
+        }
+        .links{
+            display: none;
+        }
+}
+@media (max-width: 626px){
+    .nav{
+        flex-direction: column;
+        width: auto;
+
+    }
+    .icon {
+        text-align: center;}
+    .navigation {
+    display: block;
+    }
+    .nav button{
+        border: 2px solid #ff6102;
+        border-radius: 5px;
+        margin: 5px;
+    }
+}
+@media (max-width: 530px){
+    .first-sect {
+        padding-top: 0;
+    }
+    .photo{
+        margin-top: 20px;
+    }
+    .text-photo{
+        display: block;
+    }
+    .photo1{
+        position: relative;
+        max-width: 240px;
+    }
+    .photo2{
+        position: relative;
+        max-width: 240px;
+    }
+    .text-photo2{
+        display: block;
+    }
+    .left-padding{
+        padding-left: 0;
+    }
+    .request-call-button {
+        width: 113px;
+    }
+}
+@media (max-width: 477px){
+    .banner{
+        max-height: 784px;}
+
+    .banner h1{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 361px) {
+    .purchases-button {
+        width: 30px;
+        height: 30px;
+}
+    .purchases-button:before {
+        content: "2";
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        left: 27px;
+        bottom: 27px;
+        font-size: 10px;
+    }
+    .request-call-button{
+        font-size: 11px;
+        width: 92px;
+    }
+    .usa:before {
+        content: "";
+        background-color: white;
+        position: absolute;
+        width: 1px;
+        height: 17px;
+        left: 31px;
+        transform: rotate(20deg);
+    }
+    .usa{
+        width: 25px;
+        height: 25px;
+    }
+    .isrl{
+        margin-right: 10px;
+        padding-right: 0;
+        width: 25px;
+        height: 25px
+    }
+
+}
+@media (max-width: 341px) {
+    .banner{
+        max-height: 774px;}
+
+    .banner h1{
+        font-size: 12px;
+    }
 }
