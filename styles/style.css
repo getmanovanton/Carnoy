@@ -531,6 +531,28 @@ header {
         }
 }
 @media (max-width: 626px){
+    .right-arrow {
+        width: 25px;
+        height: 28px;
+    }
+    .left-arrow {
+        width: 25px;
+        height: 28px;
+    }
+    .product {
+
+        margin: 5px 5px 0 5px;
+    }
+    .product-img {
+        border: none;
+        padding: 0;
+    }
+    .product p{
+        margin: 3px;
+    }
+    .product-img img{
+        border: 2px solid #ffffff;
+    }
     .nav{
         flex-direction: column;
         width: auto;
@@ -548,6 +570,12 @@ header {
     }
 }
 @media (max-width: 530px){
+    .text-photo2-text p {
+        margin: 3px 0;
+    }
+    .right-padding {
+    padding-left: 0;
+    }
     .first-sect {
         padding-top: 0;
     }
@@ -596,7 +624,7 @@ header {
         margin-bottom: 0;
     }
     .rhombus-conntent {
-        margin: 0 0px 113px 0;
+        margin: 0 0 113px 0;
     }
 
 }
