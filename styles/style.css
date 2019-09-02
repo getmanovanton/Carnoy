@@ -488,8 +488,14 @@ header {
         top: -5px;
     }
 }
-@media (max-width: 840px){
 
+@media (max-width: 840px){
+    .swiper-app{
+        display: none;
+    }
+    #try{
+        padding-top: 88px;
+    }
     .aboutus:before {
         display: none;
     }
@@ -674,4 +680,34 @@ header {
     .banner h1{
         font-size: 12px;
     }
+}
+.wrap{
+    position: relative;
+}
+.swiper-app{
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    height: 278px;
+    width: 100%;
+    text-align: end;
+}
+.swipertext{
+    text-align: center;
+    max-width: 1175px;
+    margin: 0 auto;
+}
+.swiper-app h1 {
+    color: #ffffff;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    background-image: url("/images/main/icons8-шеврон-вправо-90.png");
+}
+#idi{
+    background-image: none;
+    z-index: 3000;
+}
+#idi2 {
+    background-image: none;
+    z-index: 3000;
 }

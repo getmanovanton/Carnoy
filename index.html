@@ -5,6 +5,7 @@
     <title>Carnoy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 </head>
 <body>
 
@@ -29,13 +30,27 @@
         </div>
         <div class="icon"><img src="images/head/carnoy%20logo%20new%20%20WHITE.png"></div>
     </section>
-    <div class="banner">
-        <div class="buttons">
-            <button class="left"><img src="images/main/icons8-шеврон-вправо-90%20копия.png"></button>
-            <button class="right"><img src="images/main/icons8-шеврон-вправо-90.png"></button>
+    <div class="wrap">
+        <div class="swiper-app">
+        <div class="swipertext"><h1>LOREM IPSUM SIT AMET, CONSECTETUR ADIPISICING ELIT SED DO EIUSMOD EMPOR</h1></div>
+        <div class="triangles" id="try"><div class="triangle-left"></div><div class="triangle-right"></div></div>
         </div>
-        <h1>LOREM IPSUM SIT AMET, CONSECTETUR ADIPISICING ELIT SED DO EIUSMOD EMPOR</h1>
-        <div class="triangles"><div class="triangle-left"></div><div class="triangle-right"></div></div>
+            <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+                <div class="swiper-slide"><img src="images/main/all_heating_02.png"></div>
+            </div>
+            <button class="swiper-button-prev" id="idi"><img src="images/main/icons8-шеврон-вправо-90%20копия.png"></button>
+            <button class="swiper-button-next" id="idi2"><img src="images/main/icons8-шеврон-вправо-90.png"></button>
+        </div>
     </div>
     <section class="conntent">
         <div class="first-sect">
@@ -204,7 +219,15 @@
     </div>
     <div class="reserved"><p>&copy; ALL RIGHTS RESERVED</p></div>
         </footer>
-
+    <script src="js/swiper.min.js"></script>
+   <script>
+       let swiper = new Swiper('.swiper-container', {
+           navigation: {
+               nextEl: '.swiper-button-next',
+               prevEl: '.swiper-button-prev',
+           },
+       });
+   </script>
 </body>
 
 </html>
