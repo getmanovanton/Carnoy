@@ -15,8 +15,8 @@
         <div class="purchases"><button class="purchases-button"><img src="images/head/16757-200.png" alt="basket"></button></div>
         <div class="communication"><a href="#"><img src="images/head/FB_icon-icons.com_65484.png"></a><a href="#"><img src="images/head/photo%20(1).png"></a></div>
         <div class="lang">
-            <button class="isrl"><img src="images/head/israel-flag-clipart-png-650523-7241220.png"></button>
-            <button class="usa"><img src="images/head/usa-e1516086381268.png"></button>       
+            <a href="#" class="isrl"><img src="images/head/israel-flag-clipart-png-650523-7241220.png"></a>
+            <a href="#" class="usa"><img src="images/head/usa-e1516086381268.png"></a>
         </div>
         </div>
     </header>
@@ -28,7 +28,7 @@
             <button type="button">REVIEWS</button>
             <button type="button">CONTACT US</button>
         </div>
-        <div class="icon"><img src="images/head/carnoy%20logo%20new%20%20WHITE.png"></div>
+        <div class="icon"><a href="#"><img src="images/head/carnoy%20logo%20new%20%20WHITE.png"></a></div>
     </section>
     <div class="wrap">
         <div class="swiper-app">
@@ -144,14 +144,22 @@
         <div class="ourprod">
             <h1>OUR PRODUCTS</h1>
             <div class="wrapper products-pic">
-                <button class="left-arrow" type="button"><img src="images/main/arrowleft.png"></button>
-                <div class="product"><div class="product-img"><img src="images/main/Слой%204.png"></div><p>LOREM IPSUM</p></div>
-                <div class="product"><div class="product-img"><img src="images/main/Слой%205.png"></div><p>LOREM IPSUM</p></div>
-                <div class="product"><div class="product-img"><img src="images/main/Слой%206.png"></div><p>LOREM IPSUM</p></div>
-                <div class="product"><div class="product-img"><img src="images/main/Слой%207.png"></div><p>LOREM IPSUM</p></div>
-                <button class="right-arrow" type="button"> <img src="images/main/arrowright.png"></button>
+                <button class="left-arrow" id="slider-left" type="button"><img src="images/main/arrowleft.png"></button>
+                <div id="slider2">
+                    <div id="polosa">
+                    <img src="images/main/Слой%204.png">
+                    <img src="images/main/Слой%205.png">
+                    <img src="images/main/Слой%206.png">
+                    <img src="images/main/Слой%207.png">
+                    <img src="images/main/Слой%204.png">
+                    <img src="images/main/Слой%205.png">
+                    <img src="images/main/Слой%206.png">
+                    <img src="images/main/Слой%207.png">
+                    </div>
+                </div>
+                <button class="right-arrow" id="slider-right" type="button"> <img src="images/main/arrowright.png"></button>
             </div>
-            <div class="slider"></div>
+            <div class="slider"><div id="landth"></div></div>
             <div class="triangles"><div class="triangle-left"></div><div class="triangle-right"></div></div>
         </div>
         <div class="loremipsum">
@@ -206,7 +214,7 @@
             </div>
         </div>
         <div class="orange-line"></div>
-        <div class="google"><a href="https://google.com/"><img src="images/main/Слой%209.png"></a></div>
+        <div class="google"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5124.492072925567!2d36.18620406627988!3d50.04422216579798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a3f8c23c9b87%3A0xeafbd411d27a656c!2z0JfQsNC_0YfQsNGB0YLQuCDQtNCw0YQsINGA0LDQt9Cx0L7RgNC60LAg0LTQsNGE!5e0!3m2!1sru!2sua!4v1567438369716!5m2!1sru!2sua" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
         <div class="orange-line"></div>
         <div class="links">
             <h2>LOREM IPSUM DOLOR</h2>
@@ -228,6 +236,7 @@
            },
        });
    </script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
