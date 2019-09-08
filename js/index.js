@@ -31,3 +31,10 @@ function sliderRight(){
     land.style.left = landt+'px';
     polosa.style.left = left+'px';
 }
+
+let swiper = new Swiper('.swiper-container', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
