@@ -524,10 +524,14 @@ nav{
 
 @media (max-width: 840px){
     .nav-list li{
+        padding: 0;
         border: 2px solid #ff6102;
         border-radius: 5px;
         margin-bottom: 5px;
     }
+    .nav-list {
+        padding: 0;}
+
     .swiper-app{
         display: none;
     }
