@@ -6,11 +6,17 @@ body {
     box-sizing: border-box;
     max-width: 1920px;
 }
+button{
+    cursor: pointer;
+}
 h1{
     margin: 0;
 }
 a{
     text-decoration: none;
+}
+.request-call a{
+    color: white;
 }
 img {
   max-width: 100%;
@@ -56,7 +62,12 @@ header {
   border-radius: 5px;
   color: white;
   width: 185px; }
-
+.purchases{
+    bottom: -7px;
+}
+.navigation nav{
+    padding-left: 0;
+}
 .request-number {
     margin: auto;
     margin-left: 47px;
@@ -65,6 +76,9 @@ header {
     font-size: 21px;}
 .request-number img{
     margin-right: 9px;
+}
+.communication{
+    margin-right: -172px;
 }
 .communication img{
     padding: 10px 30px 0 0;
@@ -109,7 +123,7 @@ header {
 
 nav{
     padding-left: 54px;
-    padding-top: 15px;
+    padding-top: 26px;
     width: 755px;
 }
 .nav button{
@@ -119,7 +133,11 @@ nav{
 .aboutus{
     position: relative;
 }
-.aboutus:after{
+.nav-list li{
+    position: relative;
+}
+.nav-list li:hover:after{
+
     content: '';
     background-color: #ff6102;
     height: 20px;
@@ -130,7 +148,7 @@ nav{
     top: -23px;
     left: 0;
 }
-.aboutus:before{
+.nav-list li:hover:before{
     content: '';
     background-color: #ff6102;
     width: 82px;
@@ -138,6 +156,18 @@ nav{
     position: absolute;
     bottom: -2px;
     left: 0;
+}
+#w:hover:before{
+    width: 90px;
+}
+#e:hover:before{
+    width: 120px;
+}
+#r:hover:before{
+    width: 75px;
+}
+#t:hover:before{
+    width: 98px;
 }
 .banner{
     background: url("../images/main/all_heating_02.png") 50% 0 no-repeat;
@@ -338,7 +368,9 @@ nav{
 
     border: none;
 }
-
+.nav-list {
+    padding-left: 0px;
+}
 .products-pic{
     display: flex;
     justify-content: space-between;
@@ -353,29 +385,29 @@ nav{
     border-radius: 5px;
 }
 .slider{
-    width: 245px;
+    width: 229px;
     height: 4px;
     border-radius: 5px;
     background-color: #ffffff;
-    margin: 22px auto 0;
+    margin: 48px auto 0;
     position: relative;
 }
 #landth{
     margin-top: -3px;
     position: absolute;
-    width: 49px;
-    height: 10px;
+    width: 32px;
+    height: 8px;
     border-radius: 3px;
-    background-color: black;
+    background-color: white;
 
 }
 .left-arrow {
-    margin: auto 5px;
+    margin: 76px 5px;
     width: 16px;
     height: 28px;
 }
 .right-arrow{
-    margin: auto 5px;
+    margin: 76px 5px;
     width: 16px;
     height: 28px;
 }
@@ -384,6 +416,7 @@ nav{
     margin-top: 147px;
 }
 .allrub{
+    padding-left: 65px;
     margin-top: 140px;
     display: flex;
     flex-wrap: wrap;
@@ -486,10 +519,13 @@ nav{
     font-size: 33px;
     text-align: center;
     position: absolute;
-    bottom: 250px;
+    bottom: 177px;
     left: 20%;
     max-width: 803px;
     z-index: 2000;
+}
+.links li{
+    padding-bottom: 12px;
 }
 .links ul{
     list-style: none;
@@ -762,21 +798,30 @@ z-index: 3000;
 left: 0;
 transition: all ease 1s;
 position: relative;
-width: 1984px;
+width: 2248px;
 }
 #polosa img{
-max-width: 232px;
+max-width: 234px;
 height: 147px;
-float: left;
-padding: 6px;
+padding: 15px 10px;
 border:2px solid white;
 border-radius: 3px;
 }
 #slider2{
-overflow: hidden;
-border: 4px solid black;
-width: 992px;
-height: 166px;
+    overflow: hidden;
+    width: 1100px;
+    height: 220px;
+}
+.image-text{
+    text-align: center;
+    font-size: 18px;
+    margin-right: 24px;
+    float: left;
+    height: 220px;
+    width: 257px;
+}
+.image-text h2{
+    font-size: 18px;
 }
 .product{
 width: 100px;
@@ -784,6 +829,16 @@ height: 100px;
 }
 @media (max-width: 626px) {
     #slider2 {
-        width: 248px;
+        width: 281px;
     }
+}
+#line2{
+        border-left: 1px solid #ff6102;
+        max-height: 222px;
+        margin-top: 44px;
+    }
+#line3{
+    border-left: 1px solid #ff6102;
+    max-height: 222px;
+    margin-top: 44px;
 }
